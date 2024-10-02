@@ -1,0 +1,19 @@
+{
+    "name": "lithemod/import",
+    "description": "Support for facilitating the dynamic inclusion of PHP files and the management of external variables.",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lithe\\Support\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    }
+}
